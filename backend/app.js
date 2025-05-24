@@ -1,6 +1,6 @@
 import express from 'express';
-import dashboardRoutes from './routes/dashboardRoutes.js';
-import authRoutes from './routes/authRoutes.js'
+import dashboardRoutes from './backend/routes/dashboardRoutes.js';
+import authRoutes from './backend/routes/authRoutes.js'
 
 
 const app = express();
